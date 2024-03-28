@@ -33,45 +33,45 @@ const Signup = () => {
                     </h3>
                     <form>
 
-                      <div class="mb-3">
-                        <label for="" class="form-label">Email Address</label>
+                      <div className="mb-3">
+                        <label htmlFor="" className="form-label">Email Address</label>
                         <input
                           type="text"
                           id="email"
-                          class="form-control"
+                          className="form-control"
                           placeholder=""
                         />
-                        <small class="text-muted">Enter Valid Email Address</small>
+                        <small className="text-muted">Enter Valid Email Address</small>
                       </div>
-                      <div class="mb-3">
-                        <label for="" class="form-label">Name</label>
+                      <div className="mb-3">
+                        <label htmlFor="" className="form-label">Name</label>
                         <input
                           type="text"
                           id="name"
-                          class="form-control"
+                          className="form-control"
                           placeholder=""
                         />
-                        <small class="text-muted">Enter Full Name</small>
+                        <small className="text-muted">Enter Full Name</small>
                       </div>
-                      <div class="mb-3">
-                        <label for="" class="form-label">Password</label>
+                      <div className="mb-3">
+                        <label htmlFor="" className="form-label">Password</label>
                         <input
                           type="password"
                           id="password"
-                          class="form-control"
+                          className="form-control"
                           placeholder=""
                         />
-                        <small class="text-muted">Enter Strong Password</small>
+                        <small className="text-muted">Enter Strong Password</small>
                       </div>
-                      <div class="mb-3">
-                        <label for="" class="form-label">Confirm Password</label>
+                      <div className="mb-3">
+                        <label htmlFor="" className="form-label">Confirm Password</label>
                         <input
                           type="password"
                           id="cpassword"
-                          class="form-control"
+                          className="form-control"
                           placeholder=""
                         />
-                        <small class="text-muted">Passwords Must Match</small>
+                        <small className="text-muted">Passwords Must Match</small>
                       </div>
                       <div className="form-check mb-4">
                         <input
@@ -83,7 +83,7 @@ const Signup = () => {
                         />
                         <label
                           className="form-check-label"
-                          htmlFor="form2Example33"
+                          htmlhtmlFor="form2Example33"
                         >
                           I Agree to Terms & Conditions
                         </label>

@@ -48,8 +48,8 @@ const Login = () => {
                                         <h4 className='text-center fw-bold text-primary my-4'>Login To Continue</h4>
                                         <form onSubmit={loginForm.handleSubmit}>
                                             {/* 2 column grid layout with text inputs for the first and last names */}
-                                            <div class="mb-3">
-                                                <label for="" class="form-label">Email Address</label>
+                                            <div className="mb-3">
+                                                <label htmlFor="" className="form-label">Email Address</label>
                                                 <input
                                                     type="text"
                                                     id="email"
@@ -59,12 +59,12 @@ const Login = () => {
                                                     placeholder=""
                                                 />
                                                 {
-                                                  loginForm.touched.email && <small class="text-muted">{loginForm.errors.email}</small>
+                                                  loginForm.touched.email && <small className="text-muted">{loginForm.errors.email}</small>
                                                 }
                                               
                                             </div>
-                                            <div class="mb-3">
-                                                <label for="" class="form-label">Password</label>
+                                            <div className="mb-3">
+                                                <label htmlFor="" className="form-label">Password</label>
                                                 <input
                                                     type="password"
                                                     id="password"
@@ -74,7 +74,7 @@ const Login = () => {
                                                     placeholder=""
                                                 />
                                                 {
-                                                  loginForm.touched.password && <small class="text-muted">{loginForm.errors.password}</small>
+                                                  loginForm.touched.password && <small className="text-muted">{loginForm.errors.password}</small>
                                                 }
                                             </div>
 
@@ -88,7 +88,7 @@ const Login = () => {
                                                 />
                                                 <label
                                                     className="form-check-label"
-                                                    htmlFor="form2Example33"
+                                                    htmlhtmlFor="form2Example33"
                                                 >
                                                     Remember Me
                                                 </label>

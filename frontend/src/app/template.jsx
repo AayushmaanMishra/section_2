@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react'
 import Navbar from '@/components/navbar'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { SnackbarProvider, Transition } from 'notistack'
 
 const Template = ({children}) => {
     useEffect(() => {
@@ -9,10 +10,14 @@ const Template = ({children}) => {
     }, [])
     
     return (
+      <SnackbarProvider anchorOrigin={ {vertical: 'Top', horizontal: 'center'}} transitionDuration = {100}>
+
+      
        <div>
              <Navbar/>
              {children}
         </div>
+      </SnackbarProvider>
   )
 }
 
